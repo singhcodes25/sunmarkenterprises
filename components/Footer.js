@@ -50,9 +50,6 @@ const Footer = () => {
             <h5 className="text-md text-white pb-4">
               © Sunmark Enterprises – 2025
             </h5>
-            <p className="text-sm font-light text-gray-100">
-              Website Designed & Developed By: Prem Singh
-            </p>
           </div>
 
         </div>
