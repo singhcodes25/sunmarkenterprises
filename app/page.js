@@ -23,7 +23,7 @@ export default function Home() {
       {/*---------------------------------- Hero Section ----------------------------------*/}
       <div
         className="min-h-screen bg-cover bg-center flex flex-col justify-center px-4"
-        style={{ backgroundImage: "url('/bg photo.jpeg')" }}
+        style={{ backgroundImage: "url('/bg photo.webp')" }}
       >
         <div className="flex justify-center mb-6">
           <Image src="/clean energy.png" alt="Clean Energy" width={160} height={90} />
