@@ -36,10 +36,10 @@ const Navbar = () => {
             </button>
           </Link>
 
-          <Link href="https://www.facebook.com/" className="text-white hover:text-[#2C7C25]">
+          <Link href="https://www.facebook.com/" target="_blank" className="text-white hover:text-[#2C7C25]">
             <FontAwesomeIcon icon={faFacebook} size="lg" />
           </Link>
-          <Link href="https://www.instagram.com/" className="text-white hover:text-[#2C7C25]">
+          <Link href="https://www.instagram.com/" target="_blank" className="text-white hover:text-[#2C7C25]">
             <FontAwesomeIcon icon={faInstagram} size="lg" />
           </Link>
         </div>
@@ -61,16 +61,16 @@ const Navbar = () => {
           <Link href="/services" onClick={() => { scrollTop(); setOpen(false); }}>Services</Link>
 
           <Link href="/contactform">
-            <button className="w-54 bg-[#2C7C25] py-2 rounded mt-2">
+            <button className="w-54 bg-[#2C7C25] py-2 rounded mt-2" >
               Get A Quote
             </button>
           </Link>
 
           <div className="flex gap-6 pt-3">
-            <Link href="https://www.facebook.com/">
+            <Link href="https://www.facebook.com/" target="_blank">
               <FontAwesomeIcon icon={faFacebook} size="lg" />
             </Link>
-            <Link href="https://www.instagram.com/">
+            <Link href="https://www.instagram.com/" target="_blank">
               <FontAwesomeIcon icon={faInstagram} size="lg" />
             </Link>
           </div>

@@ -22,7 +22,7 @@ export default function Home() {
       </div>
       {/*---------------------------------- Hero Section ----------------------------------*/}
       <div
-        className="h-[76vh] flex flex-col bg-[#63813e] justify-center items-center"
+        className="min-h-screen flex flex-col bg-[#63813e] justify-center items-center"
       >
         <div className="flex justify-center mb-3">
           <Image src="/clean energy.png" alt="Clean Energy" width={160} height={90} />
@@ -32,7 +32,7 @@ export default function Home() {
           Welcome to a better energy investment
         </h1>
 
-        <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 max-w-6xl mx-auto">
+        <div className="mt-10 mb-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 max-w-6xl mx-auto">
           {[
             { icon: faHouse, text: "Residential", link: "/" },
             { icon: faBuilding, text: "Commercial", link: "/" },
